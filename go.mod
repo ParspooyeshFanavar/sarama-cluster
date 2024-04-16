@@ -1,6 +1,6 @@
 module github.com/ParspooyeshFanavar/sarama-cluster
 
-go 1.22.0
+go 1.21
 
 require (
 	github.com/IBM/sarama v1.43.1
