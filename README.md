@@ -1,19 +1,19 @@
 # Sarama Cluster
 
-[![GoDoc](https://godoc.org/github.com/bsm/sarama-cluster?status.svg)](https://godoc.org/github.com/bsm/sarama-cluster)
+[![GoDoc](https://godoc.org/github.com/ParspooyeshFanavar/sarama-cluster?status.svg)](https://godoc.org/github.com/ParspooyeshFanavar/sarama-cluster)
 [![Build Status](https://travis-ci.org/bsm/sarama-cluster.svg?branch=master)](https://travis-ci.org/bsm/sarama-cluster)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bsm/sarama-cluster)](https://goreportcard.com/report/github.com/bsm/sarama-cluster)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ParspooyeshFanavar/sarama-cluster)](https://goreportcard.com/report/github.com/ParspooyeshFanavar/sarama-cluster)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Cluster extensions for [Sarama](https://github.com/Shopify/sarama), the Go client library for Apache Kafka 0.9 (and later).
+Cluster extensions for [Sarama](https://github.com/IBM/sarama), the Go client library for Apache Kafka 0.9 (and later).
 
 ## DEPRECATION NOTICE
 
-Please note that since https://github.com/Shopify/sarama/pull/1099 was merged and released (>= v1.19.0) this library is officially deprecated. The native implementation supports a variety of use cases that are not available through this library.
+Please note that since https://github.com/IBM/sarama/pull/1099 was merged and released (>= v1.19.0) this library is officially deprecated. The native implementation supports a variety of use cases that are not available through this library.
 
 ## Documentation
 
-Documentation and example are available via godoc at http://godoc.org/github.com/bsm/sarama-cluster
+Documentation and example are available via godoc at http://godoc.org/github.com/ParspooyeshFanavar/sarama-cluster
 
 ## Examples
 
@@ -29,7 +29,7 @@ import (
 	"os"
 	"os/signal"
 
-	cluster "github.com/bsm/sarama-cluster"
+	cluster "github.com/ParspooyeshFanavar/sarama-cluster"
 )
 
 func main() {
@@ -93,7 +93,7 @@ import (
   "os"
   "os/signal"
 
-  cluster "github.com/bsm/sarama-cluster"
+  cluster "github.com/ParspooyeshFanavar/sarama-cluster"
 )
 
 func main() {
